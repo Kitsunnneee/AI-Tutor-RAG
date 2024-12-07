@@ -1,0 +1,29 @@
+How to use?
+Load the folder into colab(in GPU mode) as zip and the unzip run RAG_Running_And_Evaluation.ipynb. Before doing this change all the file location references and passwords etc that are there.
+
+Folder Structure
+├── GraphRAG #Contains all the files needed for GraphRAG
+│   ├── __pycache__
+│   │   └── graphutils.cpython-312.pyc
+│   ├── graphload.py
+│   ├── graphquery.py
+│   └── graphutils.py
+├── Knowledge_source # Store all knowledge sources here.
+│   ├── transcript.txt
+│   └── wrennmartin.pdf
+├── RAG_Running_And_Evaluation.ipynb
+├── RAG_Running_And_Evaluation.pdf
+├── TradRAG#Contains all the files needed for Traditional RAG
+│   ├── __pycache__
+│   │   ├── rag_gen.cpython-312.pyc
+│   │   ├── rag_load.cpython-312.pyc
+│   │   └── rag_utils.cpython-312.pyc
+│   ├── rag_gen.py
+│   ├── rag_load.py
+│   └── rag_utils.py
+├── __pycache__
+│   └── utils.cpython-312.pyc
+├── eval # Contain the evaluation dataset
+│   └── download.txt
+├── requirements.txt # Requirement of libraries
+└── utils.py # Basic utility files for load and reading data from yt and pdfs.

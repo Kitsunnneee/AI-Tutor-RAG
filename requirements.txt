@@ -1,0 +1,14 @@
+youtube-transcript-api
+pytube
+pypdf
+pandas
+langchain
+langchain-community
+langchain_core
+sentence-transformers
+chromadb
+llama-index
+llama-index-embeddings-huggingface 
+llama-index-extractors-relik 
+llama-index-graph-stores-neo4j
+llama_index-llms-ollama
